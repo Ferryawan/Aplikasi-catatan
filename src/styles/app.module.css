@@ -1,0 +1,8 @@
+.__appMain__ {
+  display: flex;
+  padding: 0 12rem;
+  padding-bottom: 7rem;
+  justify-content: center;
+  gap: 3.5rem;
+  flex-direction: column;
+}

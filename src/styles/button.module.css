@@ -1,0 +1,32 @@
+.__tombol__ {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: #ffd166;
+  flex: 1;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5em 2em;
+  font-size: 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  color: white;
+}
+
+.__tombol__[data-action="Hapus"] {
+  color: #fd5d5d;
+}
+
+.__tombol__[data-action="Arsip"],
+.__tombol__[data-action="No Arsip"] {
+  color: white;
+}
+
+.__tombol__[data-action="Hapus"]:hover {
+  color: #333;
+  background-color: #fd5d5d;
+}
+
+.__tombol__[data-action="Arsip"]:hover,
+.__tombol__[data-action="No Arsip"]:hover {
+  color: white;
+  background-color: blue;
+}

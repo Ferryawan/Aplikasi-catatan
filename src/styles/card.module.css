@@ -1,0 +1,41 @@
+.__cardStyle__ {
+  max-width: 300px;
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  border-radius: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--light);
+  overflow: hidden;
+}
+
+.__cardHeaderText__ {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.__cardHeading__ {
+  font-weight: 700;
+  color: white;
+  font-size: 22px;
+}
+.__cardDate__ {
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+.__catatan__ {
+  font-size: 0.9rem;
+}
+
+.__cardFooter__ {
+  border-top: 2px solid white;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
